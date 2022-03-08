@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LoverFlower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Cormorant:wght@300;400&family=Oswald:wght@200;300;400;700&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <div class="header__burger-btn">
+          <span></span>
+        </div>
+
+        <div class="header__menu-box">
+
+          <button class="rightside-menu__close">
+            <img src="images/close.svg" alt="">
+          </button>
+
+          <div class="logo"><img src="images/logo.png" alt="img logo"></div>
+
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="menu__item menu__item-none"><a href="#">Главная</a></li>
+              <li class="menu__item drop-down__item"><a href="#">Каталог</a>
+                <ul class="drop-down__list">
+                  <li><a href="#">Популярное</a></li>
+                  <li><a href="#">Сборны букеты</a></li>
+                  <li><a href="#">монобукеты</a></li>
+                  <li><a href="#">розы</a></li>
+                  <li><a href="#">свадебные</a></li>
+                  <li><a href="#">Композиции из цветов к коробке</a></li>
+                  <li><a href="#">интерьерные композиции</a></li>
+                  <li><a href="#">осенние</a></li>
+                  <li><a href="#">индивидуальный букет</a></li>
+                  <li><a href="#">сухоцветы</a></li>
+                  <li><a href="#">горшечные</a></li>
+                  <li><a href="#">дополнительно</a></li>
+                </ul>
+              </li>
+              <li class="menu__item"><a href="#">Доставка и оплата </a></li>
+              <li class="menu__item"><a href="#">О нас</a></li>
+              <li class="menu__item"><a href="#">Контакты</a></li>
+              <li class="menu__item"><a href="#">FAQ</a></li>
+              <li class="menu__item menu__item-none"><a href="#">для корпоративных клиентов</a></li>
+            </ul>
+          </nav>
+          <form class="header-form" action="#">
+            <input class="header-input" type="text" placeholder="🔍︎">
+            <button class="header-btn" type="submit">поиск</button>
+          </form>
+
+          <div class="header__item">
+            <div class="header__item-box">
+              <div class="header__mail">
+                <a href="mailto:zakaz@loverflower.by">zakaz@loverflower.by</a>
+                Доставка 24/7 по договоренности с оператором
+              </div>
+              <div class="header__adress">
+                ул. Тимирязева 67
+                <span>10:00 до 21:00</span>
+                <span>без выходных</span>
+              </div>
+              <div class="header__socaial">
+                <ul>
+                  <li><a href="#"><img src="images/social/yutube.png" alt=""></a></li>
+                  <li><a href="#"><img src="images/social/whatsapp.png" alt=""></a></li>
+                  <li><a href="tel:34622227241"><img src="images/social/phone.png" alt=""></a></li>
+                </ul>
+              </div>
+              <div class="header__phone">
+                <span>Политика конфиденциальности</span>
+                <span>Обработка персональных данных</span>
+                <a class="header__phone-button" href="tel:34622227241">+34 (622) 22-72-41</a>
+                <a class="header__phone-btn" data-fancybox data-src="#modal" href="javascript:;">заказать звонок</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <h1 class="header__title">lover <span>flower</span></h1>
+      <p class="header__text">Создаём для тех, кто ценит свежесть и изящество цветка</p>
+      <div class="header__button">
+        <a class="header__btn" href="#">смотреть каталог</a>
+      </div>
+      <div class="header__cart">
+        <a href="#"><span>5</span></a>
+      </div>
+      <div class="header__signature">lover <span>flower</span></div>
+    </div>
+  </header>
+
+  <section class="catalog">
+    <div class="container">
+      <h3 class="catalog__title">каталог</h3>
+      <div class="catalog__inner">
+
+        <div class="catalog__item catalog__item-text">
+          <p class="catalog__text">
+            У нас самый большой выбор цветов, букетов, открыток и подарков.
+            Мы всегда поможем вам подобрать букет для вашего события, наш менеджер вас проконсультирует и поможет
+            определиться с выбором
+          </p>
+          <p class="catalog__text">
+            Ознакомьтесь с нашими разделами каталога
+          </p>
+        </div>
+
+        <div class="catalog__item catalog__item-bouquets"><span>букеты</span>
+          <div class="catalog__item-box">
+            <div class="catalog__subtitle">готовые букеты <br> из сухоцветов</div>
+            <ul class="catalog__list">
+              <li><a href="#">букеты</a></li>
+              <li><a href="#">для интерьера</a></li>
+              <li><a href="#">Композиции</a></li>
+            </ul>
+            <div class="catalog__button">
+              <a class="catalog__btn" href="#">смотреть каталог</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog__item catalog__item-flowers"><span>Цветы</span>
+          <div class="catalog__item-box">
+            <div class="catalog__subtitle">Цветы</div>
+            <ul class="catalog__list">
+              <li><a href="#">Сборные букеты</a></li>
+              <li><a href="#">Монобукеты</a></li>
+              <li><a href="#">Композиции из цветов</a></li>
+              <li><a href="#">розы</a></li>
+              <li><a href="#">свадебные</a></li>
+            </ul>
+            <div class="catalog__button">
+              <a class="catalog__btn" href="#">смотреть каталог</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog__item catalog__item-additionally"><span>дополнительно</span>
+          <div class="catalog__item-box">
+            <div class="catalog__subtitle">дополнительно</div>
+            <ul class="catalog__list">
+              <li><a href="#">шары</a></li>
+              <li><a href="#">игрушки</a></li>
+              <li><a href="#">открытки</a></li>
+              <li><a href="#">упаковка</a></li>
+            </ul>
+            <div class="catalog__button">
+              <a class="catalog__btn" href="#">смотреть каталог</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular">
+    <div class="container">
+      <div class="popular__inner">
+        <div class="popular__inner-box">
+          <h3 class="catalog__title popular__title">Популярные<span>букеты</span></h3>
+          <p class="popular__text">Самые любимые композиции наших клиентов</p>
+          <div class="popular-slider">
+            <div class="popular__item">
+              <div class="popular__item-acc">NEW</div>
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-1.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽</div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+            <div class="popular__item">
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-2.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽</div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+            <div class="popular__item">
+              <div class="popular__item-acc popular__item-sale">SALE</div>
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-3.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽ <span>187.000 ₽</span></div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+            <div class="popular__item">
+              <div class="popular__item-acc">NEW</div>
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-1.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽</div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+            <div class="popular__item">
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-2.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽</div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+            <div class="popular__item">
+              <div class="popular__item-acc popular__item-sale">SALE</div>
+              <div class="popular__item-images">
+                <a class="popular__item-img" href="#">
+                  <img src="images/popular-3.jpg" alt="img flor">
+                </a>
+              </div>
+              <div class="popular__item-box">
+                <div class="popular__item-title">лучший день</div>
+                <div class="popular__item-price">167.000 ₽ <span>187.000 ₽</span></div>
+                <button class="popular__item-btn">В корзину</button>
+              </div>
+            </div>
+          </div>
+          <div class="popular__button">
+            <a class="popular__btn" href="#">смотреть весь каталог</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pedido">
+    <div class="container">
+      <div class="pedido__inner">
+        <h3 class="catalog__title pedido__title">Как сделать<span>заказ</span></h3>
+        <div class="pedido__box">
+          <div class="pedido__items pedido__items-1">
+            <div class="pedido__item pedido__item-before">
+              <h4 class="pedido__item-title">1 шаг</h4>
+              <p class="pedido__item-text">
+                Выберите какие цветы или подарки вы хотите купить
+              </p>
+            </div>
+            <div class="pedido__item">
+              <h4 class="pedido__item-title">2 шаг</h4>
+              <p class="pedido__item-text">
+                Оформите заказ, и мы отправим вам подтверждение на электронную почту, а так же менеджер свяжется с вами
+                по телефону или в WhatsApp
+              </p>
+            </div>
+            <div class="pedido__item">
+              <h4 class="pedido__item-title">3 шаг</h4>
+              <p class="pedido__item-text">
+                Наши флористы бережно подойдут к созданию букета цветов в самом начале дня или накануне
+              </p>
+            </div>
+          </div>
+          <div class="pedido__items pedido__items-2">
+            <div class="pedido__item">
+              <h4 class="pedido__item-title">4 шаг</h4>
+              <p class="pedido__item-text">
+                Один из наших курьеров или партнёров доставит ваш заказ по указанному адресу. Мы отправим вам сообщение
+                в Whats App как только заказ будет доставлен
+              </p>
+            </div>
+            <div class="pedido__item">
+              <h4 class="pedido__item-title">5 шаг</h4>
+              <p class="pedido__item-text">
+                Наслаждайтесь цветами , если вы заказали их для дома или любовью, которой поделились, если вы заказали
+                для друга
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__signature pedido__signature">lover <span>flower</span></div>
+    </div>
+  </section>
+
+  <section class="individual">
+    <div class="container">
+      <div class="individual__inner">
+        <h3 class="catalog__title popular__title">особенный<span class="individual__span">повод?</span></h3>
+
+        <div class="individual__items">
+          <div class="individual__item">
+            <p class="individual__text">
+              Мы готовы прийти на помощь и собрать уникальный букет, на любой вкус, бюджет и для любого события по
+              вашему
+              индивидуальному заказу.
+            </p>
+            <p class="individual__list">
+              учтем даже самые изысканные пожелания;
+            </p>
+            <p class="individual__list">
+              подберем свежайшие цветы и сделаем уникальный букет или композицию;
+            </p>
+            <p class="individual__list">
+              оплатить можно при получении или онлайн на сайте
+            </p>
+            <button class="individual__btn">собрать индивидуальный букет</button>
+          </div>
+          <div class="individual__images">
+            <div class="individual__img-box">
+              <img class="individual__img-1" src="images/individual-1.png" alt="">
+            </div>
+            <div class="individual__img">
+              <img class="individual__img-2" src="images/individual-2.png" alt="">
+              <img class="individual__img-3" src="images/individual-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="questions__inner">
+      <div class="container">
+        <div class="questions__item">
+          <div class="questions__item-box">
+            <h3 class="catalog__title pedido__title">остались<span class="questions__span">вопросы?</span></h3>
+            <div class="header__signature questions__signature">have any <span>questions?</span></div>
+          </div>
+          <form class="questions__form">
+            <p class="questions__text">
+              Отправьте ваш вопрос, заказ, предложение или жалобу через форму обратной связи, и наш специалист свяжется
+              с вами в течение 15 минут.
+            </p>
+            <input class="login__input-name" type="text" placeholder="Ваше имя" required>
+            <input class="login__input-phone" type="text" placeholder="+7 (977) 777-77-77" required>
+            <textarea placeholder="Ваш комментарий" required></textarea>
+            <button class="login__input-btn" type="submit">отправить</button>
+            <div class="login__form-text">Нажимая на кнопку «Отправить», я даю свое согласие на обработку персональных
+              данных, в
+              соответствии с
+              <a class="login__form-acc" href="#">Политикой конфиденциальности</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="instagram">
+    <div class="container">
+      <div class="instagram__inner"><span class="instagram__span">instagram</span>
+        <div class="instagram__images">
+          <ul>
+            <li><a href="#"><img src="images/instagram-1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram-2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram-3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram-4.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="instagram__info">
+          <div class="questions__signature instagram__signature">our social <span>networks</span></div>
+          <div class="instagram__social">
+            <ul>
+              <li><a href="#"><img src="images/social/yutube.png" alt=""></a></li>
+              <li><a href="#"><img src="images/social/whatsapp.png" alt=""></a></li>
+              <li><a href="tel:34622227241"><img src="images/social/phone.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__requisites">
+          <div class="footer__requisites-title footer__req">реквизиты</div>
+          <div class="footer__requisites-text">
+            ООО «Ловефлове» 220035, Республика Беларусь, г. Минск, ул. Тимирязева д. 67, комн. 112 (пом.11) УНП
+            193263781, р/с BY55MTBK30120001093300096372 ЗАО «МТБанк», БИК MTBKBY22 220007, г. Минск, улица Толстого
+          </div>
+        </div>
+
+        <div class="footer__menu-catalog">
+          <ul class="footer__menu-list">
+            <li class="footer__item"><a class="footer__req" href="#">Каталог</a>
+              <ul class="footer__list">
+                <li><a href="#">Популярное</a></li>
+                <li><a href="#">сухоцветы</a></li>
+                <li><a href="#">Букеты роз</a></li>
+                <li><a href="#">Композиции из цветов</a></li>
+                <li><a href="#">индивидуальный букет</a></li>
+                <li><a href="#">Букет на праздник</a></li>
+                <li><a href="#">Упаковка подарков</a></li>
+                <li><a href="#">Шары</a></li>
+                <li><a href="#">Открытки</a></li>
+                <li><a href="#">Конверты</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__menu-bouquets">
+          <ul class="footer__menu-list">
+            <li class="footer__item"><a class="footer__req" href="#">Букет</a>
+              <ul class="footer__list">
+                <li><a href="#">Для девушки</a></li>
+                <li><a href="#">Для мужчины</a></li>
+                <li><a href="#">Для жены</a></li>
+                <li><a href="#">Для мамы</a></li>
+                <li><a href="#">Для коллеги</a></li>
+                <li><a href="#">Для начальника</a></li>
+                <li><a href="#">Для дочки</a></li>
+                <li><a href="#">Для детей</a></li>
+                <li><a href="#">Для женщины</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__menu-pedido">
+          <ul class="footer__menu-list">
+            <li><a class="footer__req" href="#">Доставка и оплата </a></li>
+            <li><a class="footer__req" href="#">О нас</a></li>
+            <li><a class="footer__req" href="#">FAQ</a></li>
+            <li><a class="footer__req" href="#">Контакты</a></li>
+            <li><a class="footer__req" href="#">для корпоративных клиентов</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__menu-contacts">
+          <div class="footer__contacts-box">
+            <div class="footer__mail">
+              <a href="mailto:zakaz@loverflower.by">zakaz@loverflower.by</a>
+              Доставка 24/7 по договоренности с оператором
+            </div>
+            <div class="footer__adress">
+              ул. Тимирязева 67
+              <span>10:00 до 21:00</span>
+              <span>без выходных</span>
+            </div>
+            <div class="footer__phone">
+              <a class="footer__phone-button" data-fancybox data-src="#modal" href="javascript:;">+34 (622) 22-72-41</a>
+              прием звонков круглосуточно
+            </div>
+            <div class="footer__socaial">
+              <ul>
+                <li><a href="#"><img src="images/social/yutube.png" alt=""></a></li>
+                <li><a href="#"><img src="images/social/whatsapp.png" alt=""></a></li>
+                <li><a href="tel:34622227241"><img src="images/social/phone.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </footer>
+
+
+
+  <div id="modal">
+    <div class="login__wrapper">
+      <h4 class="login__title">заказать звонок</h4>
+      <p class="login__text">Впишите свои данные, и мы свяжемся с Вами. Ваши данные ни при каких обстоятельствах не
+        будут переданы третьим
+        лицам.</p>
+      <form>
+        <input class="login__input-name" type="text" placeholder="Ваше имя" required>
+        <input class="login__input-phone" type="text" placeholder="+7 (977) 777-77-77" required>
+
+        <button class="login__input-btn" type="submit">отправить</button>
+        <div class="login__form-text">Нажимая на кнопку «Отправить», я даю свое согласие на обработку персональных
+          данных, в
+          соответствии с
+          <a class="login__form-acc" href="#">Политикой конфиденциальности</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
